@@ -1,0 +1,32 @@
+.health-facility-container {
+    margin: 0 100px;
+    margin-top: 60px;
+    
+    h1 {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .facility {
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        margin: 20px 0;
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(214, 239, 246);
+        }
+        .facility-image {
+            width: 150px;
+            height: 100px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: white;
+            margin: 10px;
+           
+        }
+        .facility-name {
+            margin-top: 10px;
+        }
+    }
+}
